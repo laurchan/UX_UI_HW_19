@@ -28,7 +28,7 @@ li {
     font-weight: 550;
 }
 
-/**/
+/*navbar*/
 
 nav {
     background-color: #d2d8e4;
@@ -84,7 +84,7 @@ nav button#menuButton {
     padding: 7px;
 }
 
-/**/
+/*hero page*/
 
 .main {
     background-color: #4a505b;
@@ -162,7 +162,7 @@ nav button#menuButton {
     border-color: #868f9e;
 }
 
-/**/
+/*my skills*/
 
 .skills { 
     padding: 50px 350px 50px;
@@ -230,7 +230,7 @@ nav button#menuButton {
     opacity: 1;
 }
 
-/**/
+/*my work*/
 
 .work {
     background-color: #4a505b;
@@ -412,10 +412,17 @@ nav button#menuButton {
     font-family: 'Inter', sans-serif;
     text-decoration: underline;
     text-align: center;
-    cursor: pointer;
     opacity: 0; 
     transition: opacity 0.5s, transform 0.5s;
     transform: translateY(20px)
+}
+
+.view-all-projects p span {
+    cursor: pointer;
+}
+
+.view-all-projects p:hover {
+    color: #B9BDC6;
 }
 
 .view-all-projects.active p {
@@ -423,7 +430,7 @@ nav button#menuButton {
     transform: translateY(0); 
 }
 
-/**/
+/*footer*/
 
 footer {
     background-color: #d2d8e4;
@@ -451,7 +458,7 @@ footer .bottom p {
     margin-top: 20px;
 }
 
-/**/
+/*mobile*/
 
 @media screen and (max-width: 1200px) {
     
